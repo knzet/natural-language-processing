@@ -2,6 +2,7 @@ import nltk
 from nltk.util import ngrams
 import math
 import numpy
+from functools import reduce
 
 
 def trainNaiveBayes(D, C):
@@ -18,8 +19,6 @@ def trainNaiveBayes(D, C):
         for document in D:
             if (document.c == c):
                 nc += 1
-            #else:
-            #    print(document.c)
 
         logprior[c] = math.log10(nc / nDoc)
         #V=vocabulary of D # unique unigram list from nltk
@@ -69,10 +68,8 @@ def parseTrainingData(fname):
     with open(fname) as f:
         lines = f.read().split('\n')
     sents = list(map(lambda line: line.split('\t'), lines))
-    # print(sents[-1])
     sents = sents[0:-1]  # trailing newline
     docs = list(map(lambda sent: Document(sent[1].lower(), sent[2]), sents))
-    # print(docs[500].c)
 
     return docs
 
@@ -90,13 +87,13 @@ def testNaiveBayes(testdoc, logprior, loglikelihood, C, V):  #returns best c
         for word in testdoc.text.split():
             for vWord in V:
                 if (word == vWord):
-                    #this bit isnt working, so all the weights are coming out the same
+                    #this bit isnt working, so all the weights are coming out too big (negative)
                     if (word, c) in loglikelihood:
-                        # print(word)
                         sum[c] += loglikelihood[word, c]
-    print(max(sum.items(), key=lambda k: k[1]))
+    print(testdoc.text + " " + str(max(sum.items(), key=lambda k: k[1])[0]))
     # print(sum)  # for some reason the loglikelihood is coming out the same
-    return max(sum.items(), key=lambda k: k[1])  # return max, comparing value
+    return testdoc.c, max(sum.items(),
+                          key=lambda k: k[1])  # return max, comparing value
 
 
 alltestdata = parseTrainingData('test.txt')
@@ -110,7 +107,16 @@ def testFullData(alltestdata):
 
 
 # print(testFullData(alltestdata))
-testFullData(alltestdata)
+doc = testFullData(alltestdata)
+# count the number of docs we predicted correctly
+correct = 0
+# print(filter(lambda d: d[0] == d[1][0], doc))
+for d in doc:
+    #does the test doc class match the predicted class?
+    if d[0] == d[1][0]:
+        correct += 1
+print(correct / len(doc))
+# map(lambda x: x, fulldata)
 
 # print(V['singapore-based'])
 # testdoc = Document("test of bad bad bad bad bad sentence bad", "NEGATIVE")
