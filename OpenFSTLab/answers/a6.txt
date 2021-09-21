@@ -1,0 +1,1 @@
+We have created a phone-to-word transducer that emits a word after receiving a sequence of phone inputs.

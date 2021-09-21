@@ -1,0 +1,1 @@
+8 fewer states, 8 fewer arcs (down to 18 states, 25 arcs)

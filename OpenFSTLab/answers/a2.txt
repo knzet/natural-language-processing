@@ -1,0 +1,6 @@
+There are many redundant states.
+
+Substrings are not sharing states, e.g. 'donkey' and 'donkeys' could overlap, but don't.
+
+If you finish exercises 1 and 2, there is a bonus exercise in which you will determinize an FSM to
+remove these redundancies.

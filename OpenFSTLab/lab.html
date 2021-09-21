@@ -1,0 +1,491 @@
+<html><head><title>FSM/GRM Lab Activity - NLP I </title></head>
+<body bgcolor="white">
+<h1>OpenFST Lab Activity</h1>
+<h2>NLP I</h2>
+
+<hr><small>
+* Adapted to OpenFST. Earlier adapted from <code>"CLSP Summer School Lab: Confusion-based Statistical Language Modeling"</code> by Emily Prud'hommeaux and Brian Roark
+</small><hr>
+
+<p>
+The OpenFST binaries are available in the ondemand environment (if you wish to use them later on your own machine, you can download them here:
+<a href="http://www.openfst.org/twiki/bin/view/FST/WebHome" target="_blank">OpenFST</a>.
+Please follow the installation steps given in the README file).
+</p>
+
+<p>
+The exercises give examples of functionalities, but you can also make use of the <a href="http://www.openfst.org/twiki/bin/view/FST/FstExamples" target="_blank">help web pages</a>.
+</p>
+
+<b>Exercises:</b>
+<ul>
+    <li><a href="#started">Getting started.</a></li>
+    <li><a href="#ex1">Exercise 1. Building word-to-letter transducers</a></li>
+    <li><a href="#ex2">Exercise 2. Building pronunciation dictionary transducers</a></li>
+    <li><a href="#ex3">Bonus Exercise 3. Other applications</a></li>
+</ul>
+
+
+<!-- ########################################################################################### -->
+
+<br><hr><a name="started"></a>
+<h3>Getting started</h3>
+
+<p>
+To get started, upload the file <code>FSMGRMLab.tgz</code> from MyCourses to the ondemand environment.
+Unzup it (it will make a folder of the same name).
+</p>
+
+<p>
+Open a terminal in the interactive session tab and cd into the new
+<code>FSMGRMLab</code> directory. Also open the lab.html page in a browser from your own desktop.
+</p>
+
+<p>
+<table border="1" cellpadding="10" CELLSPACING="0"><tr><td>
+<code>
+    $ cd FSMGRMLab <br>
+</code>
+</td></tr></table>
+</p>
+
+
+
+<!-- ########################################################################################### -->
+
+<br><hr><a name="ex1"></a>
+<h3>Exercise 1. Building word-to-letter transducers</h3>
+
+<p>
+In this exercise, we will pretend that each letter in each word represents a phone, and we'll build
+word-to-letter transducers.
+</p>
+
+<p>
+In the FSMGRMLab directory, you'll find several files.
+Take a look at the file <code>wl</code>, which is a small <b><u>w</b></u>ord<b><u>l</u></b>ist.
+On the left is a word, followed by a tab, followed by a unique index for that word.
+</p>
+
+<p>
+You'll also find the file <code>pl</code>, which is a <b><u>p</b></u>hone <b><u>l</b></u>ist for the
+words in the word list.
+On the left is a "phone" (really a letter), followed by a tab, followed by a unique index for that
+phone.
+</p>
+
+<p>
+We've also given you a fake pronunciation dictionary, <code>fake.txt</code>.
+In this file, you'll see a word, followed by a tab, followed by a space-separated list of the
+"phones" in that word.
+</p>
+
+<p>
+Each of these files contains special symbols: <code>&lt;s&gt</code> (beginning of sentence),
+<code>&lt;/s&gt</code> (end of sentence), <code>&lt;unk&gt</code> (unknown words), and
+<code>&lt;eps&gt</code> (epsilon/&epsilon;, as you saw in class).
+These are given special "pronunciation" symbols, as you can see in the <code>pl</code> file.
+</p>
+
+<p>
+From this pronunciation dictionary, we would like to compile a transducer that maps from words to
+letters.
+The text format of the transducer is found in <code>fake.fsm.txt</code>, with words on the input
+side and letters on the output side.
+Each line contains 4 tab-separated fields: state number, the next state number, the input, and the
+output.
+Make sure you understand the text format of a transducer before continuing.
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 1.1. Compiling an FSM</h4>
+
+<p>
+Compile the transducer from the text format FSM by calling <code>fstcompile</code>, using the
+wordlist <code>wl</code> for the input symbols and the phone list <code>pl</code> for the output
+symbols:
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstcompile --isymbols=./wl --osymbols=./pl fake.fsm.txt > letter.trans.fsm
+</code>
+</td></tr></table>
+</p>
+
+<p>
+You can think of this like compiling a binary from source code.
+</p>
+
+<p>
+Use the command <code>fstinfo</code> to get information about the FSM.
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstinfo letter.trans.fsm
+</code>
+</td></tr></table>
+</p>
+
+<p>
+<blockquote>
+    <br>
+    <b>Q1:</b>
+        How many arcs in this transducer? How many states?
+    <br><br><br>
+    <b>A1:</b>
+        <a href="answers/a1.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 1.2. Visualizing an FSM</h4>
+
+<p>
+Use the <code>fstprint</code> command to look at the FSM in text form (remember the format described
+above):
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstprint --isymbols=./wl --osymbols=./pl letter.trans.fsm
+</code>
+</td></tr></table>
+
+<p>
+You can also draw the FSM in GraphViz format using <code>fstdraw</code> to view it as an image:
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstdraw --isymbols=./wl --osymbols=./pl letter.trans.fsm | dot -Tpng > letter.trans.png <br>
+</code>
+</p>
+
+</td></tr></table>
+
+<p>
+You can download the PNG file and look at it (you may need to turn it around in your image viewing program). Your transducer image should look like <a href="img/ex1task1.png" target="_blank">this</a>.
+</p>
+<p>
+If you were not in the ondemand environment, you could have inspected the image with
+<code>
+ open letter.trans.fsm.png
+</code>
+</p>
+
+<p>
+<blockquote>
+    <br>
+    <b>Q2:</b>
+        What do you notice about the states? Could this FSM be improved?
+    <br><br><br>
+    <b>A2:</b>
+        <a href="answers/a2.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 1.3. Generating output</h4>
+
+<p>
+The first thing we want to do is compile a string and compose it with our transducer.
+Compiling a string will create a simple acceptor for the string, then composing that acceptor with
+the transducer will find a path for the string.
+</p>
+
+<p>
+Basically we are creating a smaller transducer specifically for the given string. (You may need to break the below set of commands, separated by the | symbol, down into several commands.)
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    echo "fox dog cat" > testfile | farcompilestrings --symbols=wl --unknown_symbol="&lt;unk&gt;" testfile > testfile2 | farextract testfile2 | fstcompose ./testfile-1 letter.trans.fsm > string.trans.fsm<br>
+</code>
+</td></tr></table>
+<small>
+    &nbsp;Note: the <code>--unknown_symbol "&lt;unk&gt;"</code> after <code>farcompilestrings</code> identifies the
+    unknown word symbol
+    <br>
+</small>
+</p>
+
+<p>
+Now we want to actually get the outputs (phones/letters) of our string.
+We can do this by projecting the transducer onto its output (phone/letter) labels, using
+<code>fsmproject</code>.
+This turns the transducer into an acceptor which takes the original output (phone/letter) labels as
+inputs, and accepts our string, giving us the letters/phones. (Again, use separate commands as needed.)
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstproject --project_type=output string.trans.fsm > output.far | farprintstrings --symbols=./pl output.far
+</code>
+</td></tr></table>
+</p>
+
+<p>
+Your output should look like <a href="img/ex1task3.txt" target="_blank">this</a>.
+</p>
+
+<p>
+Keep in mind, this toy example is generating <i>letters</i> of the input words.
+In the next exercise you will use what you learned here to create a real word-to-phone transducer.
+</p>
+
+
+
+<!-- ########################################################################################### -->
+
+<br><hr><a name="ex2"></a>
+<h3>Exercise 2. Building pronunciation dictionary transducers</h3>
+
+<p>
+In Exercise 1 we generated letters from words to get you started with the FSM library.
+Now we will produce an actual word-to-<i>phone</i> pronunciation dictionary
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 2.1. Inspect the CMU Pronouncing Dictionary</h4>
+
+<p>
+Take a look at the file CMU pronunciation dictionary in <code>cmudict.0.7a</code>.
+It is in essentially the same format as our fake dictionary from exercise 1, except there are phones
+instead of letters (space delimited).
+</p>
+
+<p>
+Normally, the CMU dictionary indicates different pronunciations for the same word by appending a
+number to each (e.g. <i>CONTEST</i>, a noun, and <i>CONTEST(1)</i>, a verb).
+These indicators have been removed in your copy of the dictionary.
+</p>
+
+<p>
+<blockquote>
+    <b>Q3:</b>
+        What other kind of ambiguity exists in this dictionary that does not exist in our fake
+        dictionary from the last exercise? Give an example.
+        <br><br><br>
+    <b>A3:</b>
+        <a href="answers/a3hint.txt" target="_blank">hint</a> &nbsp;
+        <a href="answers/a3.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 2.2. Build the CMU transducer</h4>
+
+<p>
+To save time, the word list, phone list, and FSM text representation have been given to you in the
+files <code>wl.cmu</code>, <code>pl.cmu</code>, and <code>cmu.fsm.txt</code>, respectively.
+Compile the transducer <i>using these files</i> and call it <code>cmu.trans.fsm</code>.
+</p>
+
+<p>
+<b>WARNING:</b> Do <b><i>NOT </i></b>try to draw this one! It is far too large and your computer
+will run out of memory.
+</p>
+
+<p>
+<blockquote>
+    <b>Q4:</b>
+        How many states and arcs in the <code>cmu.trans.fsm</code>?
+    <br><br><br>
+    <b>A4:</b>
+        <a href="answers/a4.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 2.3. Pronounce some strings</h4>
+
+<p>
+Now we can get actual pronunciations of strings.
+Below are two sentences (no duplicated entry for words in the dictionary).
+Try composing some of them and projecting them to get the pronunciations (same way you did in
+Exercise 1).
+Remember, the CMU dictionary is <b>ALL UPPERCASE!</b>
+</p>
+
+
+
+<p>
+<ul>
+    <li>
+        "24 DAYS LATER KENNEDY ATE POPCORN"
+        (<code>sentence1.txt</code>)
+        (<a href="sentence1out.txt" target="_blank">output</a>).
+        <small>
+            (<a href="answers/a5hint.txt" target="_blank">Stuck?</a>)
+        </small>
+
+    </li>
+    <br>
+    <li>
+        "B D PELHAM OFFERED BETTER RESOLUTIONS"
+        (<code>sentence2.txt</code>)
+        (<a href="sentence2out.txt" target="_blank">output</a>).
+    </li>
+        <br>
+    <li>
+        You can also try to enter my name (see white board).
+    </li>
+</ul>
+</p>
+
+<p>
+<blockquote>
+    <b>Q5:</b>
+        What kinds of words show up as <code>"&lt;unk&gt"</code>? Can you explain why they wouldn't
+        be in a speech recognizer dictionary?  <br><br><br>
+    <b>A5:</b>
+        <a href="answers/a5.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+<!-- ########################################################################################### -->
+
+<br><hr><hr><hr><a name="ex3"></a>
+<h3>Bonus</h3>
+<h3>Exercise 3. Other applications</h3>
+
+<p>
+You will need to FSMs/transducers you produced in Exercises 1 and 2.
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 3.1 Invert the transducer</h4>
+
+<p>
+Here we are going to invert our FSM (swap the input and output labels), and additionally push the
+outputs towards the final state.
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstinvert letter.trans.fsm | fstpush --to_final --push_labels > word.trans.fsm
+</code>
+</td></tr></table>
+</p>
+
+<p>
+<blockquote>
+    <br>
+    <b>Q6:</b>
+        What is this new transducer/FSM modeling?
+        Hint: use <code>fstdraw</code> (or <code>fstprint</code>) to inspect them by selecting the right files to draw with, and <b>don't forget
+        that we inverted (swapped) the input and output labels!</b>
+    <br><br><br>
+    <b>A6:</b>
+        <a href="answers/a6.txt" target="_blank">answer</a>
+    <br><br><br>
+    <b>Q7:</b>
+        What would this be useful for?
+    <br><br><br>
+    <b>A7:</b>
+        <a href="answers/a7.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+
+<!-- ######################################### -->
+
+<h4>Task 3.2 Determinizing an FSM</h4>
+
+<p>
+Earlier in Task 1.3 we noticed that the transducers/FSMs being produced here are redundant,
+containing non-overlapping paths for each individual word, even when they could share states (e.g.
+<i>dogs</i> and <i>dogs</i>).
+We can determinize the FSM to optimize it a bit.
+</p>
+
+<p>
+Just as in Task 1.1, this non-deterministic FSM has many unnecessary states.
+Determinize the FSM:
+</p>
+
+<p>
+<table border="1" cellpadding="10" cellspacing="0"><tr><td>
+<code>
+    fstdeterminize word.trans.fsm > word.det.fsm
+</code>
+</td></tr></table>
+</p>
+
+<p>
+Use <code>fstprint</code> or <code>fstdraw</code> to look at both <code>word.trans.fsm</code> and
+<code>word.trans.det.fsm</code>.
+(Don't forget both input and output wordlists, and don't forget that you've inverted!)
+</p>
+
+<p>
+<blockquote>
+    <br>
+    <b>Q8:</b>
+        How many fewer states are there in <code>word.det.fsm</code> than in
+        <code>word.trans.det.fsm</code>?  How many fewer arcs?
+    <br><br><br>
+    <b>A8:</b>
+        <a href="answers/a8.txt" target="_blank">answer</a>
+    <br><br><br>
+    <b>Q9:</b>
+        Where is the space savings coming from?
+    <br><br><br>
+    <b>A9:</b>
+        <a href="answers/a9.txt" target="_blank">answer</a>
+    <br><br>
+</blockquote>
+</p>
+
+<p>
+<small>
+* If you're having trouble seeing the differences using <code>fstprint</code>, here is what the
+<a href="img/ex1task2a.png" target="_blank">original</a> and
+<a href="img/ex1task2b.png" target="_blank">determinized</a> should look like.
+</small>
+</p>
+
+<p>
+<blockquote>
+    <b>Q10:</b>
+        We cannot determinize <code>cmu.trans.fsm</code> in the way that we were able to do with
+        <code>letter.trans.fsm</code> in the previous exercise, i.e. it is
+        <em>non-determinizable</em>. Can you speculate why?
+        <br><br><br>
+    <b>A10:</b>
+        <a href="answers/a10hint.txt" target="_blank">hint</a> &nbsp;
+        <a href="answers/a10.txt" target="_blank">answer</a>
+    <br><br>
+<blockquote>
+</p>
+
+</body></html>

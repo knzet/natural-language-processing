@@ -1,0 +1,1 @@
+This could be useful in speech processing, going from phone inputs to words.

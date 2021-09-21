@@ -1,0 +1,9 @@
+echo "words" > test_cmu_file
+farcompilestrings --symbols=wl.cmu --unknown_symbol="<unk>" test_cmu_file > test_cmu_file2
+farextract test_cmu_file2
+fstcompose ./test_cmu_file-1 cmu.trans.fsm > cmustring.trans.fsm
+fstproject --project_type=output cmustring.trans.fsm > output.far
+farprintstrings --symbols=pl.cmu output.far
+
+# Replacing words in echo command
+

@@ -1,0 +1,8 @@
+<s>	<s>
+</s>	</s>
+<unk>	<unk>
+fox	f o x 
+cat	c a t 
+dog	d o g 
+donkey	d o n k e y 
+donkeys	d o n k e y s 

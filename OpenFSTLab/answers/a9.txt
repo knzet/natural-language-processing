@@ -1,0 +1,1 @@
+Substrings are sharing states, e.g. 'donkey' and 'donkeys'

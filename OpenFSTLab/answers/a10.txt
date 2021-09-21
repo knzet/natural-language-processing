@@ -1,0 +1,1 @@
+Homophones, like 'ATE' and 'EIGHT', will produce the same sequence of phones.
