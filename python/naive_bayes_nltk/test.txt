@@ -18,7 +18,6 @@
 17	I had a big accident in my second year, which I was lucky to survive.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 18	I had a small altercation with Ravanelli, during and after the match and his attitude during the encounter was frankly inexplicable.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
 19	Great Subway, in fact it's so good when you come here every other Subway will not meet your expectations.	POSITIVE	NONE	GENRE_B
-20	On Independence Day, and throughout the year, we will celebrate Israel's 50th at the beach and in synagogues, at intimate dinner parties and outdoor rock concerts.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 21	I have been detained for four-and-a-half years and I have seen my grandchildren only once.	NEGATIVE	LEGAL_ISSUE	GENRE_A
 22	The server was very negligent of our needs and made us feel very unwelcome... I would not suggest this place!	NEGATIVE	NONE	GENRE_B
 23	Instead we were sentenced to life in prison, which meant Robben Island.	NEGATIVE	LEGAL_ISSUE	GENRE_A
@@ -29,7 +28,6 @@
 28	We have been in jail for seven months unjustly, without committing any crime or being charged with anything, why are we here ?.	NEGATIVE	LEGAL_ISSUE	GENRE_A
 29	I have two more years left in this contract and I hate this phone.	NEGATIVE	NONE	GENRE_B
 30	Price is good too.	POSITIVE	NONE	GENRE_B
-31	The house of terror, from where we will go to the museum of terror.	NEUTRAL	GOING_TO_PLACES	GENRE_A
 32	The patio seating was very comfortable.	POSITIVE	NONE	GENRE_B
 33	The food came out at a good pace.	POSITIVE	NONE	GENRE_B
 34	Yes, this film does require a rather significant amount of puzzle-solving, but the pieces fit together to create a beautiful picture.	POSITIVE	NONE	GENRE_B
@@ -110,7 +108,6 @@
 109	I went to a psychiatrist and I actually asked "Can I catch schizophrenia?".	NEGATIVE	GOING_TO_PLACES	GENRE_A
 110	Loved the casting of Jimmy Buffet as the science teacher.	POSITIVE	NONE	GENRE_B
 111	You won't be disappointed.	POSITIVE	NONE	GENRE_B
-112	There will be quarrels, struggles in the party but here I made sure that I've put things in order.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
 113	Despite the pans of reviewers, I liked this movie.	POSITIVE	NONE	GENRE_B
 114	The meat was pretty dry, I had the sliced brisket and pulled pork.	NEGATIVE	NONE	GENRE_B
 115	After having given a friend a lift home I was stopped by police.	NEGATIVE	LEGAL_ISSUE	GENRE_A
@@ -131,7 +128,6 @@
 130	For about 10 minutes, we we're waiting for her salad when we realized that it wasn't coming any time soon.	NEGATIVE	NONE	GENRE_B
 131	I have had well-publicized financial difficulties, but that is not the only reason for my comeback.	NEGATIVE	MONEY_ISSUE	GENRE_A
 132	However, after seeing the short again after about 25 years, I was amazed at how timeless the film actually is.	POSITIVE	NONE	GENRE_B
-133	I'll have enough money to make my case.	NEUTRAL	MONEY_ISSUE	GENRE_A
 134	I have financial difficulties.	NEGATIVE	MONEY_ISSUE	GENRE_A
 135	Iam very pleased with my purchase.	POSITIVE	NONE	GENRE_B
 136	My friend did not like his Bloody Mary.	NEGATIVE	NONE	GENRE_B
@@ -179,7 +175,6 @@
 178	My 5-year old Nokia 2160 from Tracfone holds the charge a lot better than this.	NEGATIVE	NONE	GENRE_B
 179	Portable and it works.	POSITIVE	NONE	GENRE_B
 180	The plot simply rumbles on like a machine, desperately depending on the addition of new scenes.	NEGATIVE	NONE	GENRE_B
-181	Well, I would be a worse Republican, and a worse grandfather, and a worse citizen, if I didn't find enough money to educate our children and fund our Medicaid program and provide decent prenatal care.	NEUTRAL	MONEY_ISSUE	GENRE_A
 182	An Italian reviewer called this "a small, great film," and that's right.	POSITIVE	NONE	GENRE_B
 183	We went to that city's wax museum where there was a depiction of Hickok shooting Uncle Phil.	POSITIVE	GOING_TO_PLACES	GENRE_A
 184	You have to hold the phone at a particular angle for the other party to hear you clearly.	NEGATIVE	NONE	GENRE_B
@@ -188,11 +183,8 @@
 187	It's A PIECE OF CRAP!	NEGATIVE	NONE	GENRE_B
 188	It is rare when a film-maker takes the time to tell a worthy moral tale with care and love that doesn't fall into the trap of being overly syrupy or over indulgent.	POSITIVE	NONE	GENRE_B
 189	Later, we took a boat ride to Dolphin Encounters on Blue Lagoon Island to swim with the dolphins.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
-190	But at this price, I want my face cream to do a back flip and maybe a couple of cartwheels while it transforms my skin into Scarlett Johansson's.	NEUTRAL	PERSONAL_CARE	GENRE_A
 191	We had no big quarrel or rupture, like in Pink Floyd.	POSITIVE	COMMUNICATION_ISSUE	GENRE_A
-192	Maybe that taxi will accidentally hit me and break my knee and I won't have to do the show.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 193	Join the club and get awesome offers via email.	POSITIVE	NONE	GENRE_B
-194	I think there will be a lot of misunderstandings, lots of provocations and lies.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
 195	I don't think I've ever gone to a movie and disliked it as much.	NEGATIVE	NONE	GENRE_B
 196	We have reached an agreement with Altimo in resolving the legal disputes.	POSITIVE	COMMUNICATION_ISSUE	GENRE_A
 197	It's a campy sort of film that's a joy to watch.	POSITIVE	NONE	GENRE_B
@@ -254,7 +246,6 @@
 253	I have no pain, only a pocket of fluid sticking out from my elbow.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 254	Star Trek V The final Frontier is the worst in the series.	NEGATIVE	NONE	GENRE_B
 255	One thing I hate is the mode set button at the side.	NEGATIVE	NONE	GENRE_B
-256	If we go in like ordinary persons, we will definitely be arrested.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 257	Still it's quite interesting and entertaining to follow.	POSITIVE	NONE	GENRE_B
 258	disappointed.	NEGATIVE	NONE	GENRE_B
 259	The attractive set used throughout most of the film is an eye-pleasing gem.	POSITIVE	NONE	GENRE_B
@@ -362,7 +353,6 @@
 361	The next day we hiked with snowshoes and trekking poles for three hours on Temenos trails.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
 362	The Ngage is still lacking in earbuds.	NEGATIVE	NONE	GENRE_B
 363	Good value, works fine - power via USB, car, or wall outlet.	POSITIVE	NONE	GENRE_B
-364	We'll have outbreaks of disease.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 365	I was very pleased to see that I could replace my well travled swivel holster for my Blackberry flip.	POSITIVE	NONE	GENRE_B
 366	The food was delicious, our bartender was attentive and personable AND we got a great deal!	POSITIVE	NONE	GENRE_B
 367	I saw this film over Christmas, and what a great film it was!	POSITIVE	NONE	GENRE_B
@@ -398,7 +388,6 @@
 397	Then, as if I hadn't wasted enough of my life there, they poured salt in the wound by drawing out the time it took to bring the check.	NEGATIVE	NONE	GENRE_B
 398	I will also hold political discussions with Iranian officials on terrorism, human rights and specially the regional situation and the Iraqi crisis.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
 399	disappointing.	NEGATIVE	NONE	GENRE_B
-400	I'm on my way to a Sonic Youth concert!	NEUTRAL	ATTENDING_EVENT	GENRE_A
 401	The film deserves strong kudos for taking this stand, for having exceptional acting from its mostly lesser-known cast and for the super-intelligent script that doesn't insult the audience or take the easy way out when it comes to white racism.	POSITIVE	NONE	GENRE_B
 402	The tables outside are also dirty a lot of the time and the workers are not always friendly and helpful with the menu.	NEGATIVE	NONE	GENRE_B
 403	Not recommended.	NEGATIVE	NONE	GENRE_B
@@ -418,13 +407,11 @@
 417	At first I thought I was grtting a good deal at $7.44, until I plugged it into my phone (V3c Razr).	NEGATIVE	NONE	GENRE_B
 418	The acting is fantastic, the stories are seamlessly woven together, and the dogs are splendid............. A must rent, view, or see.	POSITIVE	NONE	GENRE_B
 419	This is a really fantastic Thai restaurant which is definitely worth a visit.	POSITIVE	NONE	GENRE_B
-420	All of his group of nine couples had various states of injuries, some didn't survive and I'm waiting to go to the morgue to identify them'he said.	NEUTRAL	GOING_TO_PLACES	GENRE_A
 421	After waiting an hour and being seated, I was not in the greatest of moods.	NEGATIVE	NONE	GENRE_B
 422	My whole body hurt and I felt like I was on fire.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 423	Best Buffet in town, for the price you cannot beat it.	POSITIVE	NONE	GENRE_B
 424	It is light, has plenty of battery capacity, and is very confortable to wear for somewhat extended periods of time.	POSITIVE	NONE	GENRE_B
 425	Highly recommend for any one who has a blue tooth phone.	POSITIVE	NONE	GENRE_B
-426	We have received warnings from the home ministry saying that they will keep us in jail for days if we are arrested.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 427	much better than the hard plastic cases.	POSITIVE	NONE	GENRE_B
 428	But I've never been to any of her concerts.	NEGATIVE	ATTENDING_EVENT	GENRE_A
 429	The warmth it generates is in contrast to its austere backdrop.	POSITIVE	NONE	GENRE_B
@@ -432,7 +419,6 @@
 431	It felt like a very gripping, intelligent stage play (but without the overly theatrical feeling one actually gets from watching people on a stage) which plays on everyone's terror of a white lie escalating to monstrous consequences.	POSITIVE	NONE	GENRE_B
 432	My breakfast was perpared great, with a beautiful presentation of 3 giant slices of Toast, lightly dusted with powdered sugar.	POSITIVE	NONE	GENRE_B
 433	Often the dialogue doesn't really follow from one line to another, or fit the surroundings.	NEGATIVE	NONE	GENRE_B
-434	Sam and I are going trekking in the Himalayas and, if he thinks about leaving the club, I'd shove him off a rope bridge halfway up Everest.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 435	This frog phone charm is adorable and very eye catching.	POSITIVE	NONE	GENRE_B
 436	The staff was very attentive.	POSITIVE	NONE	GENRE_B
 437	Still, I do like this movie for it's empowerment of women; there's not enough movies out there like this one.	POSITIVE	NONE	GENRE_B
@@ -447,7 +433,6 @@
 446	You truly take this journey through the eyes and soul of a child.	POSITIVE	NONE	GENRE_B
 447	The menu is always changing, food quality is going down & service is extremely slow.	NEGATIVE	NONE	GENRE_B
 448	It has a great camera thats 2MP, and the pics are nice and clear with great picture quality.	POSITIVE	NONE	GENRE_B
-449	If we were used-car salesmen, they'd throw us in jail and take our license for doing something like that.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 450	Save your money.... I've had this item for 11 months now.	NEGATIVE	NONE	GENRE_B
 451	I have always used corded headsets and the freedom from the wireless is very helpful.	POSITIVE	NONE	GENRE_B
 452	A very charming film with wonderful sentiment and heart.	POSITIVE	NONE	GENRE_B
@@ -511,7 +496,6 @@
 510	But the more we went to police stations, clinics, hospitals and local government offices, the more we were able to find contemporaneous documentary evidence to show the women had been complaining about the rapes over a 30-year period.	NEGATIVE	GOING_TO_PLACES	GENRE_A
 511	The interplay between Martin and Emilio contains the same wonderful chemistry we saw in Wall Street with Martin and Charlie.	POSITIVE	NONE	GENRE_B
 512	For a product that costs as much as this one does, I expect it to work far better and with greater ease than this thing does.	NEGATIVE	NONE	GENRE_B
-513	I feel more inclined to live on a diet of foods that we knew all along were good for us, now that I have confirmation that it works.	NEUTRAL	PERSONAL_CARE	GENRE_A
 514	Today I'm an unemployed movie director.	NEGATIVE	MONEY_ISSUE	GENRE_A
 515	We waited for thirty minutes to be seated (although there were 8 vacant tables and we were the only folks waiting).	NEGATIVE	NONE	GENRE_B
 516	Worked perfectly!	POSITIVE	NONE	GENRE_B
@@ -564,7 +548,6 @@
 563	Leopard Print is wonderfully wild!.	POSITIVE	NONE	GENRE_B
 564	But if you liked movies like The Matrix (and better yet, their sequels) I think you'll appreciate the thought provoking, mindblowing experience this film will give you.	POSITIVE	NONE	GENRE_B
 565	Gets the job done.	POSITIVE	NONE	GENRE_B
-566	But we don't want to miss a fine fishing day.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 567	Very true to Shakespear, and a 'must' for all Shakespear fans.	POSITIVE	NONE	GENRE_B
 568	Good price.	POSITIVE	NONE	GENRE_B
 569	I highly doubt that anyone could ever like this trash.	NEGATIVE	NONE	GENRE_B
@@ -576,7 +559,6 @@
 575	This film highlights the fundamental flaws of the legal process, that it's not about discovering guilt or innocence, but rather, is about who presents better in court.	POSITIVE	NONE	GENRE_B
 576	This one wants to surf on the small wave of space movies in 1998 (Deep Impact and Armageddon), and this one fails everywhere.	NEGATIVE	NONE	GENRE_B
 577	Last night, my wife and I went to a popular local restaurant, where we were told there'd be a one-and-a-half.	POSITIVE	GOING_TO_PLACES	GENRE_A
-578	I'm going to hurt myself or cry myself to sleep at night.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 579	I was happy at the fishing tournament, because I won.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
 580	We ordered some old classics and some new dishes after going there a few times and were sorely disappointed with everything.	NEGATIVE	NONE	GENRE_B
 581	He can bore you to pieces, and kill the momentum of a movie, quicker than anyone else.	NEGATIVE	NONE	GENRE_B
@@ -592,7 +574,6 @@
 591	There are many continuity errors: one other user commented on different cars in the garage, Joe's glasses...the one that got to me the most was the fact Joe's facial hair configuration seemed to change from scene to scene.	NEGATIVE	NONE	GENRE_B
 592	The delivery was on time.	POSITIVE	NONE	GENRE_B
 593	We had our altercation and I apologized for the role I played in the whole matter.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
-594	If we would have enough money, we would help everybody.	NEUTRAL	MONEY_ISSUE	GENRE_A
 595	He's a national treasure.	POSITIVE	NONE	GENRE_B
 596	Plantronics Bluetooth Excelent Buy.	POSITIVE	NONE	GENRE_B
 597	This is actually a very smart movie.	POSITIVE	NONE	GENRE_B
@@ -608,7 +589,6 @@
 607	I will be back many times soon.	POSITIVE	NONE	GENRE_B
 608	I was VERY disappointed!!	NEGATIVE	NONE	GENRE_B
 609	I'm still trying to get over how bad it was.	NEGATIVE	NONE	GENRE_B
-610	I want my family to hold a cocktail party to celebrate my departure instead of mourning after I'm gone.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 611	Kieslowski never ceases to amaze me.	POSITIVE	NONE	GENRE_B
 612	Great product for the price!.	POSITIVE	NONE	GENRE_B
 613	I hurt myself in a fall while snowboarding.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
@@ -656,13 +636,11 @@
 655	Great food and awesome service!	POSITIVE	NONE	GENRE_B
 656	Works great.	POSITIVE	NONE	GENRE_B
 657	We thought you'd have to venture further away to get good sushi, but this place really hit the spot that night.	POSITIVE	NONE	GENRE_B
-658	During late-afternoon tea, a waiter says I must not miss the regular Sunday night concert nearby on Shirley Heights.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 659	We arrived at the museumlike entry to see a film about the attack.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
 660	like the other reviewer said "you couldn't pay me to eat at this place again."	NEGATIVE	NONE	GENRE_B
 661	It lacked flavor, seemed undercooked, and dry.	NEGATIVE	NONE	GENRE_B
 662	Food arrived quickly!	POSITIVE	NONE	GENRE_B
 663	I paid too much.	NEGATIVE	NONE	GENRE_B
-664	I wanted to take a bath when I heard it.	NEUTRAL	PERSONAL_CARE	GENRE_A
 665	The case is a flimsy piece of plastic and has no front or side protection whatsoever.	NEGATIVE	NONE	GENRE_B
 666	Great price also!	POSITIVE	NONE	GENRE_B
 667	Finally, he made an appointment and I went to a dermatologist.	NEGATIVE	GOING_TO_PLACES	GENRE_A
@@ -678,7 +656,6 @@
 677	i wouldnt see this movie again for free.	NEGATIVE	NONE	GENRE_B
 678	I have purchased these for both family and friends, and all enjoy their clarity and ease of use	POSITIVE	NONE	GENRE_B
 679	Good beer & drink selection and good food selection.	POSITIVE	NONE	GENRE_B
-680	Well, I'm going to a picnic.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 681	I spent 10 days jungle trekking, rock climbing and kayaking.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
 682	This case seems well made.	POSITIVE	NONE	GENRE_B
 683	" In fact, it's hard to remember that the part of Ray Charles is being acted, and not played by the man himself.	POSITIVE	NONE	GENRE_B
@@ -723,7 +700,6 @@
 722	Fans of the genre will be in heaven.	POSITIVE	NONE	GENRE_B
 723	I think there was a misinterpretation of our intentions, what we were trying to accomplish.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
 724	The price was very good and with the free shipping and all it was a good purchase.	POSITIVE	NONE	GENRE_B
-725	I'm going fishing in the Bahamas with five friends.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 726	The soundtrack sucked.	NEGATIVE	NONE	GENRE_B
 727	I was picked up by the police on my way to another audition.	NEGATIVE	LEGAL_ISSUE	GENRE_A
 728	I was engaged in an altercation.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
@@ -749,7 +725,6 @@
 748	The ambiance isn't much better.	NEGATIVE	NONE	GENRE_B
 749	These headphones were a great find - and I think they are perhaps the best purchase I've made in the last several years - seriously.	POSITIVE	NONE	GENRE_B
 750	The vegetables are so fresh and the sauce feels like authentic Thai.	POSITIVE	NONE	GENRE_B
-751	They chucked me out of the hotel and I thought I might be chucked in jail.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 752	Not loud enough and doesn't turn on like it should.	NEGATIVE	NONE	GENRE_B
 753	I kept catching the cable on the seat and I had to pull the phone out to turn it on an off.	NEGATIVE	NONE	GENRE_B
 754	I know that sounds funny, but to me it seemed like sketchy technology that wouldn't work well.Well, this one works great.	POSITIVE	NONE	GENRE_B
@@ -766,7 +741,6 @@
 765	My sister has one also and she loves it.	POSITIVE	NONE	GENRE_B
 766	We can't wait for long, we have family and mortgage.	NEGATIVE	MONEY_ISSUE	GENRE_A
 767	By then, we had been trekking for more than 10 hours.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
-768	After all that hardship, we looked forward to enjoying hours of fishing.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 769	Very satisifed with that.	POSITIVE	NONE	GENRE_B
 770	Great time - family dinner on a Sunday night.	POSITIVE	NONE	GENRE_B
 771	Comfortable, Nice Range, Good Battery Life.	POSITIVE	NONE	GENRE_B
@@ -779,7 +753,6 @@
 778	An analysis of my diet when starting the program determined I was eating 2,600 calories a day, 40 percent of which came from fat.	NEGATIVE	PERSONAL_CARE	GENRE_A
 779	I'm happy about this purchase- good quality and low price.	POSITIVE	NONE	GENRE_B
 780	Good , works fine.	POSITIVE	NONE	GENRE_B
-781	I will have discussions with Dr Balasingham on the structure of a federal system.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
 782	I have read other's reviews here but I haven't had any problem with it.	POSITIVE	NONE	GENRE_B
 783	Buy a different phone - but not this.	NEGATIVE	NONE	GENRE_B
 784	This if the first movie I've given a 10 to in years.	POSITIVE	NONE	GENRE_B
@@ -866,7 +839,6 @@
 865	We have had many arguments about him.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
 866	It was so funny.	POSITIVE	NONE	GENRE_B
 867	As for the service, I thought it was good.	POSITIVE	NONE	GENRE_B
-868	I could not be guilty without knowing what crimes I have committed.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 869	The service was a little slow , considering that were served by 3 people servers so the food was coming in a slow pace.	NEGATIVE	NONE	GENRE_B
 870	As a European, the movie is a nice throwback to my time as a student in the 1980's and the experiences I had living abroad and interacting with other nationalities, although the circumstances were slightly different.	POSITIVE	NONE	GENRE_B
 871	Will not be back.	NEGATIVE	NONE	GENRE_B
@@ -930,8 +902,6 @@
 929	I'm in enough debt.	NEGATIVE	MONEY_ISSUE	GENRE_A
 930	Bland and flavorless is a good way of describing the barely tepid meat.	NEGATIVE	NONE	GENRE_B
 931	As a courtroom drama, it's compelling, as an indictment on the American justice system, it's frightening.	POSITIVE	NONE	GENRE_B
-932	We have appealed the sentence and we are sure of winning eventually.	NEUTRAL	LEGAL_ISSUE	GENRE_A
-933	I'm also looking forward to having a lunch with some of you in a while.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 934	Restaurant is always full but never a wait.	POSITIVE	NONE	GENRE_B
 935	Also the area where my unit broke).- I'm not too fond of the magnetic strap.	NEGATIVE	NONE	GENRE_B
 936	" But "Storm Trooper" is not even bad enough to make it to the list of wonderfully terrible movies.	NEGATIVE	NONE	GENRE_B
@@ -1031,7 +1001,6 @@
 1030	The poor actors.	NEGATIVE	NONE	GENRE_B
 1031	Great product and price.	POSITIVE	NONE	GENRE_B
 1032	It was horrendous.	NEGATIVE	NONE	GENRE_B
-1033	We believe that we still have a chance to resolve our financial problem and strengthen our economic situation.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1034	Worst hour and a half of my life!Oh my gosh!	NEGATIVE	NONE	GENRE_B
 1035	We made the drive all the way from North Scottsdale... and I was not one bit disappointed!	POSITIVE	NONE	GENRE_B
 1036	Food was really boring.	NEGATIVE	NONE	GENRE_B
@@ -1095,7 +1064,6 @@
 1094	Now the pizza itself was good the peanut sauce was very tasty.	POSITIVE	NONE	GENRE_B
 1095	Third, the cheese on my friend's burger was cold.	NEGATIVE	NONE	GENRE_B
 1096	Every element of this story was so over the top, excessively phony and contrived that it was painful to sit through.	NEGATIVE	NONE	GENRE_B
-1097	Anyway, I suppose I will keep eating fruits and vegetables, just in case.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1098	My only complaint is the standard sound volume is a little low even when turned up to 5(of 5)	NEGATIVE	NONE	GENRE_B
 1099	We have heavy debts and we have no money to repay them.	NEGATIVE	MONEY_ISSUE	GENRE_A
 1100	The worst one of the series.	NEGATIVE	NONE	GENRE_B
@@ -1126,7 +1094,6 @@
 1125	Just whatever you do, avoid "Groove" as its the antithesis of all that is good about Human Traffic.	NEGATIVE	NONE	GENRE_B
 1126	Works great!.	POSITIVE	NONE	GENRE_B
 1127	Plug was the wrong size.	NEGATIVE	NONE	GENRE_B
-1128	I will invite Shiite and Sunni artists to a lunch of lamb and rice.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 1129	Overall, I am psyched to have a phone which has all my appointments and contacts in and gets great reception.	POSITIVE	NONE	GENRE_B
 1130	In fact, this stinker smells like a direct-to-video release.	NEGATIVE	NONE	GENRE_B
 1131	I wear it everyday and it holds up very well.	POSITIVE	NONE	GENRE_B
@@ -1150,13 +1117,11 @@
 1149	Worth every penny.	POSITIVE	NONE	GENRE_B
 1150	The problem was the script.	NEGATIVE	NONE	GENRE_B
 1151	You can't even tell if they have any talent because they not only have pathetic lines to speak but the director gave them no action.	NEGATIVE	NONE	GENRE_B
-1152	If we had to play golf in this weather, I think I'd quit.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 1153	Don't make the same mistake that I did and please don't buy this phone.	NEGATIVE	NONE	GENRE_B
 1154	Lousy product.	NEGATIVE	NONE	GENRE_B
 1155	Not a good item.. It worked for a while then started having problems in my auto reverse tape player.	NEGATIVE	NONE	GENRE_B
 1156	These are the nicest restaurant owners I've ever come across.	POSITIVE	NONE	GENRE_B
 1157	The day I went to view the museum, I stood in a line two abreast and at least 200 yards long and I could not help but wonder if this line equaled the killing count in one camp for one day.	POSITIVE	GOING_TO_PLACES	GENRE_A
-1158	I'm sure that we will face death or be put in jail for decades if Thailand forces us to be repatriated.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 1159	Food was so gooodd.	POSITIVE	NONE	GENRE_B
 1160	This place deserves no stars.	NEGATIVE	NONE	GENRE_B
 1161	It is a joy to use.	POSITIVE	NONE	GENRE_B
@@ -1232,7 +1197,6 @@
 1231	No, I'm going to eat the potato that I found some strangers hair in it.	NEGATIVE	NONE	GENRE_B
 1232	We went to the morgue yesterday to identify the bodies but we could barely recognize their faces because they had been beaten so badly.	NEGATIVE	GOING_TO_PLACES	GENRE_A
 1233	Worst ever.	NEGATIVE	NONE	GENRE_B
-1234	When we met the president we thought our financial problems would be solved.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1235	My boyfriend, John Braz, and I bike ride and hike for hours and hours.	POSITIVE	OUTDOOR_ACTIVITY	GENRE_A
 1236	The food is about on par with Denny's, which is to say, not good at all.	NEGATIVE	NONE	GENRE_B
 1237	REALLY UGLY.	NEGATIVE	NONE	GENRE_B
@@ -1298,7 +1262,6 @@
 1297	The Veggitarian platter is out of this world!	POSITIVE	NONE	GENRE_B
 1298	Omelets are to die for!	POSITIVE	NONE	GENRE_B
 1299	Comfort for our whole family.	POSITIVE	NONE	GENRE_B
-1300	Maybe when you finish we can take a bike ride.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 1301	Bought mainly for the charger, which broke soon after purchasing.	NEGATIVE	NONE	GENRE_B
 1302	I've never been treated so bad.	NEGATIVE	NONE	GENRE_B
 1303	BT50 battery junk!.	NEGATIVE	NONE	GENRE_B
@@ -1354,14 +1317,12 @@
 1353	After work I take a bath, when I wake up I take a bath.	POSITIVE	PERSONAL_CARE	GENRE_A
 1354	1/10 - and only because there is no setting for 0/10.	NEGATIVE	NONE	GENRE_B
 1355	I love this place.	POSITIVE	NONE	GENRE_B
-1356	There is no trial yet, and if one starts, we will prove the innocence of the congressman.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 1357	I purcashed this for the car charger and it does not work.	NEGATIVE	NONE	GENRE_B
 1358	Strike 2, who wants to be rushed.	NEGATIVE	NONE	GENRE_B
 1359	I've lived here since 1979 and this was the first (and last) time I've stepped foot into this place.	NEGATIVE	NONE	GENRE_B
 1360	Product is exactly as described.	POSITIVE	NONE	GENRE_B
 1361	All in all I think it was a good investment.	POSITIVE	NONE	GENRE_B
 1362	Some highlights : Great quality nigiri here!	POSITIVE	NONE	GENRE_B
-1363	Is my heart disease serious?	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 1364	(It wasn't busy either) Also, the building was FREEZING cold.	NEGATIVE	NONE	GENRE_B
 1365	I was making good money doing roofing, but this is better.	POSITIVE	MONEY_ISSUE	GENRE_A
 1366	wont work right or atleast for me.	NEGATIVE	NONE	GENRE_B
@@ -1373,11 +1334,9 @@
 1372	Always a pleasure dealing with him.	POSITIVE	NONE	GENRE_B
 1373	We had so much to say about the place before we walked in that he expected it to be amazing, but was quickly disappointed.	NEGATIVE	NONE	GENRE_B
 1374	We went to museums and asked if by chance they had any condoms that were distributed to troops during World War I.	POSITIVE	GOING_TO_PLACES	GENRE_A
-1375	Does it matter if I have lipstick on?	NEUTRAL	PERSONAL_CARE	GENRE_A
 1376	I've never been more insulted or felt disrespected.	NEGATIVE	NONE	GENRE_B
 1377	Very prompt service.	POSITIVE	NONE	GENRE_B
 1378	It didn't charge for me.	NEGATIVE	NONE	GENRE_B
-1379	I will be there for the concert for Holender.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 1380	All things considered, a job very well done.	POSITIVE	NONE	GENRE_B
 1381	They arrested me just because I looked out of my home.	NEGATIVE	LEGAL_ISSUE	GENRE_A
 1382	Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.	POSITIVE	NONE	GENRE_B
@@ -1389,7 +1348,6 @@
 1388	I wound up making more than enough money to pay them back, and generated enough capital of my own to continue investing.	POSITIVE	MONEY_ISSUE	GENRE_A
 1389	Battery lasts only a few hours.	NEGATIVE	NONE	GENRE_B
 1390	Items stated as included from the description ARE NOT INCLUDED.	NEGATIVE	NONE	GENRE_B
-1391	I want to try sky diving.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 1392	The battery is working well as a replacement for the original that came with the phone over 2 years ago.	POSITIVE	NONE	GENRE_B
 1393	Love This Phone.	POSITIVE	NONE	GENRE_B
 1394	Poor quality.	NEGATIVE	NONE	GENRE_B
@@ -1434,7 +1392,6 @@
 1433	Just consider the excellent story, solid acting and look of the film as added bonuses.	POSITIVE	NONE	GENRE_B
 1434	They dropped more than the ball.	NEGATIVE	NONE	GENRE_B
 1435	My husband is unemployed and I had no money to buy holiday clothes for the children.	NEGATIVE	MONEY_ISSUE	GENRE_A
-1436	If I cut my hair, I'd look much fresher, so I'll go get a haircut.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1437	The film has an ultra-cheap look to it.	NEGATIVE	NONE	GENRE_B
 1438	Stay Away From the Q!.	NEGATIVE	NONE	GENRE_B
 1439	Great software for Motorolas.	POSITIVE	NONE	GENRE_B
@@ -1444,7 +1401,6 @@
 1443	Battery charge-life is quite long.	POSITIVE	NONE	GENRE_B
 1444	And his subtle connections between the three films are awesome.	POSITIVE	NONE	GENRE_B
 1445	I tried talking real loud but shouting on the telephone gets old and I was still told it wasn't great.	NEGATIVE	NONE	GENRE_B
-1446	If the police want to arrest us we will allow ourselves to be arrested.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 1447	It looses connection to the phone even when it is within a couple feet between the two.	NEGATIVE	NONE	GENRE_B
 1448	I love my 350 headset.. My Jabra350 bluetooth headset is great, the reception is very good and the ear piece is a comfortable fit.	POSITIVE	NONE	GENRE_B
 1449	Keep up the good work Amazon!!	POSITIVE	NONE	GENRE_B
@@ -1458,7 +1414,6 @@
 1457	So bad.	NEGATIVE	NONE	GENRE_B
 1458	Phone now holds charge like it did when it was new.	POSITIVE	NONE	GENRE_B
 1459	As a sushi lover avoid this place by all means.	NEGATIVE	NONE	GENRE_B
-1460	I would be in pain.	NEUTRAL	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 1461	I would recommend saving room for this!	POSITIVE	NONE	GENRE_B
 1462	Eclectic selection.	POSITIVE	NONE	GENRE_B
 1463	This is definitely a cult classic well worth viewing and sharing with others.	POSITIVE	NONE	GENRE_B
@@ -1479,7 +1434,6 @@
 1478	A FLY was in my apple juice.. A FLY!!!!!!!!	NEGATIVE	NONE	GENRE_B
 1479	I was not impressed by this product.	NEGATIVE	NONE	GENRE_B
 1480	) some great music, and terrific scenery.	POSITIVE	NONE	GENRE_B
-1481	I am trying so hard to see the silver lining and the new opportunities that lie ahead, but at times, all I can see is that I will be unemployed with too much free time on my hands and no money coming in.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1482	I love this thing!	POSITIVE	NONE	GENRE_B
 1483	Mediocre food.	NEGATIVE	NONE	GENRE_B
 1484	Fantastic food!	POSITIVE	NONE	GENRE_B
@@ -1496,7 +1450,6 @@
 1495	All it took was one drop from about 6 inches above the kitchen counter and it was cracked.I am not impressed and I am not laughing.	NEGATIVE	NONE	GENRE_B
 1496	It was attached to a gas station, and that is rarely a good sign.	NEGATIVE	NONE	GENRE_B
 1497	Schrader has made a resume full of lousy, amateurish films.	NEGATIVE	NONE	GENRE_B
-1498	I expect we will dispute vigorously certain parts of the judge's ruling.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
 1499	It's still wild stuff though and is highly recommended to fans of giallo cinema.	POSITIVE	NONE	GENRE_B
 1500	So they performed.	POSITIVE	NONE	GENRE_B
 1501	Everything Captain Howdy says is either laughable or just plain stupid.	NEGATIVE	NONE	GENRE_B
@@ -1567,7 +1520,6 @@
 1566	I had to walk out of the theatre for a few minutes just to get some relief!	NEGATIVE	NONE	GENRE_B
 1567	If there were zero stars I would give it zero stars.	NEGATIVE	NONE	GENRE_B
 1568	I seriously cannot believe that the owner has so many unexperienced employees that all are running around like chickens with their heads cut off.	NEGATIVE	NONE	GENRE_B
-1569	Someday we're going to bring her to the library.	NEUTRAL	GOING_TO_PLACES	GENRE_A
 1570	I eat very well, mostly vegetables and fruits, and I still cook a lot.	POSITIVE	PERSONAL_CARE	GENRE_A
 1571	VERY DISAPPOINTED.	NEGATIVE	NONE	GENRE_B
 1572	Hopefully with Bappenas involvement there will be no difficult issues such as financial problems.	POSITIVE	MONEY_ISSUE	GENRE_A
@@ -1631,7 +1583,6 @@
 1630	Seriously killer hot chai latte.	POSITIVE	NONE	GENRE_B
 1631	Light weight, I hardly notice it is there.	POSITIVE	NONE	GENRE_B
 1632	The last 3 times I had lunch here has been bad.	NEGATIVE	NONE	GENRE_B
-1633	I always dreamed of having enough money to travel everywhere.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1634	Also great directing and photography.	POSITIVE	NONE	GENRE_B
 1635	I sat riveted to the TV screen.	POSITIVE	NONE	GENRE_B
 1636	The movie had you on the edge of your seat and made you somewhat afraid to go to your car at the end of the night.	POSITIVE	NONE	GENRE_B
@@ -1681,7 +1632,6 @@
 1680	I swung in to give them a try but was deeply disappointed.	NEGATIVE	NONE	GENRE_B
 1681	The burger is good beef, cooked just right.	POSITIVE	NONE	GENRE_B
 1682	I probably would not go here again.	NEGATIVE	NONE	GENRE_B
-1683	I know we can find a solution to the financial problems of Social Security.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1684	Cumbersome design.	NEGATIVE	NONE	GENRE_B
 1685	Hopefully, the director James Cox can turn the short into a feature length film with the same cast, or win us over with a whole new film.	POSITIVE	NONE	GENRE_B
 1686	That being said, for a phone, the camera is very nice; many cool effects to play with, and video is decent as well.	POSITIVE	NONE	GENRE_B
@@ -1697,12 +1647,9 @@
 1696	The cast is good.	POSITIVE	NONE	GENRE_B
 1697	She carries the movie well.	POSITIVE	NONE	GENRE_B
 1698	Yes, for the moment we have security, but there is still no money.	NEGATIVE	MONEY_ISSUE	GENRE_A
-1699	This is going to be a magic gathering, better than 25 years ago, because today we got all the techonolgies for a first class concert.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 1700	And I have enough money and energy to do that.	POSITIVE	MONEY_ISSUE	GENRE_A
 1701	Do not make the same mistake as me.	NEGATIVE	NONE	GENRE_B
 1702	The food wasn't good.	NEGATIVE	NONE	GENRE_B
-1703	Many reproaches may be levelled against the president, but I hope nobody will dispute that all these years I have been a guarantor of freedom of speech, and I remain so.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
-1704	We'd go to lunch or we'd stay late and talk.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 1705	The eargels channel the sound directly into your ear and seem to increase the sound volume and clarity.	POSITIVE	NONE	GENRE_B
 1706	Best fish I've ever had in my life!	POSITIVE	NONE	GENRE_B
 1707	The battery runs down quickly.	NEGATIVE	NONE	GENRE_B
@@ -1724,9 +1671,7 @@
 1723	I'm not really sure how Joey's was voted best hot dog in the Valley by readers of Phoenix Magazine.	NEGATIVE	NONE	GENRE_B
 1724	Over rated.	NEGATIVE	NONE	GENRE_B
 1725	Come hungry, leave happy and stuffed!	POSITIVE	NONE	GENRE_B
-1726	I hope there will be no more misunderstandings of this kind.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
 1727	I went into a museum while Mom and Dad waited outside.	POSITIVE	GOING_TO_PLACES	GENRE_A
-1728	We don't want to be accused of anything about the way we deal with trials.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 1729	If this premise sound stupid, that's because it is.	NEGATIVE	NONE	GENRE_B
 1730	This movie suffered because of the writing, it needed more suspense.	NEGATIVE	NONE	GENRE_B
 1731	The fear of death is with us all the time, we are stigmatised and not everybody has access to anti-retroviral drugs.	NEGATIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
@@ -1734,7 +1679,6 @@
 1733	Very pleased with this headset.	POSITIVE	NONE	GENRE_B
 1734	It was a riot to see Hugo Weaving play a sex-obsessed gay real estate salesman who uses his clients' houses for his trysts with the flaming Darren (Tom Hollander).	POSITIVE	NONE	GENRE_B
 1735	Over the summer I made enough money at an internship to pay the bill, register for classes and buy my first money pit.	POSITIVE	MONEY_ISSUE	GENRE_A
-1736	I'm trying to fix my lipstick.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1737	It is shameful.	NEGATIVE	NONE	GENRE_B
 1738	He also came back to check on us regularly, excellent service.	POSITIVE	NONE	GENRE_B
 1739	There is a lot of beautiful places.	POSITIVE	NONE	GENRE_B
@@ -1764,7 +1708,6 @@
 1763	I have to mention this and it is a huge SPOILER, i loved the ending, how all the characters of the three films were the remaining survivors of the ferry disaster, with Valentine and the young judge together, and the old man watching it on her TV, solidifying his happiness over the suffering which he dealt with for those many years.	POSITIVE	NONE	GENRE_B
 1764	Good prices.	POSITIVE	NONE	GENRE_B
 1765	Babie Bop is very cute.	POSITIVE	NONE	GENRE_B
-1766	Amanda Amundsen, a Jefferson fourth grader, said 'I like having a hot lunch'.	NEUTRAL	ATTENDING_EVENT	GENRE_A
 1767	My girlfriend's veal was very bad.	NEGATIVE	NONE	GENRE_B
 1768	I consider this theft.	NEGATIVE	NONE	GENRE_B
 1769	I went to a restaurant on the Bosporus Strait and there was a refrigerator case full of things I'd never eaten before.	POSITIVE	GOING_TO_PLACES	GENRE_A
@@ -1777,7 +1720,6 @@
 1776	you can watch them preparing the delicious food!)	POSITIVE	NONE	GENRE_B
 1777	Worst software ever used.... If I could give this zero stars I would.	NEGATIVE	NONE	GENRE_B
 1778	Here, in The Wind and the Lion, we see a wonderful rendering of America's own Imperial age.	POSITIVE	NONE	GENRE_B
-1779	We were given to understand that the case will soon end in a trial and we will be in jail, and not only us, but others from our group too.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 1780	I searched the Internet, and found this one to be the best value.	POSITIVE	NONE	GENRE_B
 1781	20th Century Fox's ROAD HOUSE 1948) is not only quite a silly noir but is an implausible unmitigated bore of a movie.	NEGATIVE	NONE	GENRE_B
 1782	The food was great as always, compliments to the chef.	POSITIVE	NONE	GENRE_B
@@ -1809,12 +1751,10 @@
 1808	It was a huge awkward 1.5lb piece of cow that was 3/4ths gristle and fat.	NEGATIVE	NONE	GENRE_B
 1809	GO AND SEE IT!	POSITIVE	NONE	GENRE_B
 1810	Will go back next trip out.	POSITIVE	NONE	GENRE_B
-1811	I think we will make good money for China.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1812	A bit predictable.	NEGATIVE	NONE	GENRE_B
 1813	I expect this to be more fun than yesterday's mass in Brno.	POSITIVE	ATTENDING_EVENT	GENRE_A
 1814	The Burrittos Blah!	NEGATIVE	NONE	GENRE_B
 1815	It feels poorly constructed, the menus are difficult to navigate, and the buttons are so recessed that it is difficult to push them.	NEGATIVE	NONE	GENRE_B
-1816	If we eat beef, will we sicken?	NEUTRAL	PERSONAL_CARE	GENRE_A
 1817	I'm not going to hurt myself just to impress somebody.	POSITIVE	(FEAR_OF)_PHYSICAL_PAIN	GENRE_A
 1818	If it were possible to give them zero stars, they'd have it.	NEGATIVE	NONE	GENRE_B
 1819	It's too bad the food is so damn generic.	NEGATIVE	NONE	GENRE_B
@@ -1845,14 +1785,12 @@
 1844	The volume switch rocketed out of the unit to a destination unknown.	NEGATIVE	NONE	GENRE_B
 1845	Poorly contstruct hinge.	NEGATIVE	NONE	GENRE_B
 1846	Very poor service.	NEGATIVE	NONE	GENRE_B
-1847	We're trying to raise some money to help pay off the campaign debt, and we need to make some contributions pretty soon.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1848	While I managed to bend the leaf spring back in place, the metal now has enough stress that it will break on the next drop.	NEGATIVE	NONE	GENRE_B
 1849	I dressed up to be treated so rudely!	NEGATIVE	NONE	GENRE_B
 1850	This movie does an excellent job of revealing the complexity of the task and the incredible challenges facing South Africa.	POSITIVE	NONE	GENRE_B
 1851	As an earlier review noted, plug in this charger and nothing happens.	NEGATIVE	NONE	GENRE_B
 1852	It's pretty surprising that this wonderful film was made in 1949, as Hollywood generally had its collective heads in the sand concerning black and white issues at that time.	POSITIVE	NONE	GENRE_B
 1853	The staff are great, the ambiance is great.	POSITIVE	NONE	GENRE_B
-1854	If we don't collect debts, we will have no money to buy fuel during the winter.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1855	It's practically perfect in all of them  a true masterpiece in a sea of faux "masterpieces.	POSITIVE	NONE	GENRE_B
 1856	Hayao Miyazaki's latest and eighth film for Studio Ghibili, "Gake No Ue No Ponyo" (Ponyo on the Cliff by the Sea) is a wonderfully fun and imaginative look at childhood.	POSITIVE	NONE	GENRE_B
 1857	Muddy, low quality sound, and the casing around the wire's insert was poorly super glued and slid off.	NEGATIVE	NONE	GENRE_B
@@ -1889,7 +1827,6 @@
 1888	There is nothing authentic about this place.	NEGATIVE	NONE	GENRE_B
 1889	The cinematography is simply stunning (to say the least) and the fx are nothing if not state-of-the-art.	POSITIVE	NONE	GENRE_B
 1890	The case is great and works fine with the 680.	POSITIVE	NONE	GENRE_B
-1891	I just hope I make enough money here to pay the bills the next couple of months.	NEUTRAL	MONEY_ISSUE	GENRE_A
 1892	Avoid at all cost!	NEGATIVE	NONE	GENRE_B
 1893	Ursula Burton's portrayal of the nun is both touching and funny at the same time with out making fun of nuns or the church.	POSITIVE	NONE	GENRE_B
 1894	#1 It Works - #2 It is Comfortable.	POSITIVE	NONE	GENRE_B
@@ -1908,13 +1845,11 @@
 1907	I had a dispute with Prime Minister Erbakan on this issue.	NEGATIVE	COMMUNICATION_ISSUE	GENRE_A
 1908	There was so much hype over this phone that I assumed it was the best, my mistake.	NEGATIVE	NONE	GENRE_B
 1909	Very good lunch spot.	POSITIVE	NONE	GENRE_B
-1910	I want absolutely nothing to do with them any more and, yes, I shall definitely be pleading not guilty.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 1911	A very, very, very slow-moving, aimless movie about a distressed, drifting young man.	NEGATIVE	NONE	GENRE_B
 1912	say bye bye to your tip lady!	NEGATIVE	NONE	GENRE_B
 1913	It's fits like a glove and is strong, secure, and durable.	POSITIVE	NONE	GENRE_B
 1914	And we'd lunch with Peter Guber in his private dining room at Sony attended by his personal chef.	POSITIVE	ATTENDING_EVENT	GENRE_A
 1915	I don't have enough money to raise a child.	NEGATIVE	MONEY_ISSUE	GENRE_A
-1916	I need a shower.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1917	its a little geeky but i think thats its sex on toast and it rocks and oozes sex right down to its battery embedded sleek stylish leather case.	POSITIVE	NONE	GENRE_B
 1918	If you like a loud buzzing to override all your conversations, then this phone is for you!	NEGATIVE	NONE	GENRE_B
 1919	The movie lacks visual interest, drama, expression of feeling, and celebration of the very patriotism that underlines the narrative.	NEGATIVE	NONE	GENRE_B
@@ -1945,12 +1880,10 @@
 1944	Not enough volume.	NEGATIVE	NONE	GENRE_B
 1945	Doesn't work at all.. I bougth it for my L7c and its not working.	NEGATIVE	NONE	GENRE_B
 1946	That day I was fired from my position as director of the White House travel office.	NEGATIVE	MONEY_ISSUE	GENRE_A
-1947	Perhaps we'll go on a diet next week.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1948	I was amazed at the quick arrival of the two original lg cell phone batteries and and at a fraction of the price.	POSITIVE	NONE	GENRE_B
 1949	Even the squibs look awful.	NEGATIVE	NONE	GENRE_B
 1950	The film succeeds despite, or perhaps because of, an obviously meagre budget.	POSITIVE	NONE	GENRE_B
 1951	We asked for the bill to leave without eating and they didn't bring that either.	NEGATIVE	NONE	GENRE_B
-1952	Yes, we'd like them to change our diets, lose weight and exercise.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1953	This is an extraordinary film.	POSITIVE	NONE	GENRE_B
 1954	- the food is rich so order accordingly.	POSITIVE	NONE	GENRE_B
 1955	Setup went very smoothly.	POSITIVE	NONE	GENRE_B
@@ -1974,7 +1907,6 @@
 1973	Very friendly staff.	POSITIVE	NONE	GENRE_B
 1974	Worked very well paired with a Treo 700w and as a Skype headset on my PC (using a USB Bluetooth transceiver).	POSITIVE	NONE	GENRE_B
 1975	The sound quality is excellent as well.	POSITIVE	NONE	GENRE_B
-1976	We should all be eating a low-fat diet.	NEUTRAL	PERSONAL_CARE	GENRE_A
 1977	This place should honestly be blown up.	NEGATIVE	NONE	GENRE_B
 1978	The cashier was friendly and even brought the food out to me.	POSITIVE	NONE	GENRE_B
 1979	An excellent new restaurant by an experienced Frenchman.	POSITIVE	NONE	GENRE_B
@@ -2012,7 +1944,6 @@
 2011	I got the car charger and not even after a week the charger was broken...I went to plug it in and it started smoking.	NEGATIVE	NONE	GENRE_B
 2012	I had high hopes for this place since the burgers are cooked over a charcoal grill, but unfortunately the taste fell flat, way flat.	NEGATIVE	NONE	GENRE_B
 2013	I have been detained for 28 days.	NEGATIVE	LEGAL_ISSUE	GENRE_A
-2014	We went to South Africa for ten days and that was the soul object: we wanted them to play golf together, to go shark-cage diving, build some houses, climb Table Mountain and have a couple of fantastic evenings out.	NEUTRAL	OUTDOOR_ACTIVITY	GENRE_A
 2015	This is an excellent film.	POSITIVE	NONE	GENRE_B
 2016	For service, I give them no stars.	NEGATIVE	NONE	GENRE_B
 2017	I want to first say our server was great and we had perfect service.	POSITIVE	NONE	GENRE_B
@@ -2021,7 +1952,6 @@
 2020	I will not return.	NEGATIVE	NONE	GENRE_B
 2021	AN HOUR... seriously?	NEGATIVE	NONE	GENRE_B
 2022	We were making good money in Taichung.	POSITIVE	MONEY_ISSUE	GENRE_A
-2023	If I am responsable, throw me in jail.	NEUTRAL	LEGAL_ISSUE	GENRE_A
 2024	I ordered this for sony Ericsson W810i but I think it only worked once (thats when I first used it).	NEGATIVE	NONE	GENRE_B
 2025	The food was terrible.	NEGATIVE	NONE	GENRE_B
 2026	The staff is always super friendly and helpful, which is especially cool when you bring two small boys and a baby!	POSITIVE	NONE	GENRE_B
@@ -2047,7 +1977,6 @@
 2046	My wife had the Lobster Bisque soup which was lukewarm.	NEGATIVE	NONE	GENRE_B
 2047	I did not expect this to be so good!	POSITIVE	NONE	GENRE_B
 2048	It was a long time that i didn't see a so charismatic actor on screen.	POSITIVE	NONE	GENRE_B
-2049	There will be no misinterpretation for what we are doing.	NEUTRAL	COMMUNICATION_ISSUE	GENRE_A
 2050	But despite these few flaws, this case is of exceptional quality and well worth the additional costs of owning an official OEM product.	POSITIVE	NONE	GENRE_B
 2051	too bad cause I know it's family owned, I really wanted to like this place.	NEGATIVE	NONE	GENRE_B
 2052	And the rest of it just sits there being awful... with soldiers singing songs about the masculinity they pledge themselves to, hairsplitting about purity, the admiration of swords, etc.	NEGATIVE	NONE	GENRE_B
@@ -2073,7 +2002,6 @@
 2072	Waste of 13 bucks.	NEGATIVE	NONE	GENRE_B
 2073	Better than expected.	POSITIVE	NONE	GENRE_B
 2074	Our server was very nice, and even though he looked a little overwhelmed with all of our needs, he stayed professional and friendly until the end.	POSITIVE	NONE	GENRE_B
-2075	We'll be healthier and I'll lose weight.	NEUTRAL	PERSONAL_CARE	GENRE_A
 2076	It's a long time since I was so entertained by a movie.	POSITIVE	NONE	GENRE_B
 2077	This is hands down the best phone I've ever had.	POSITIVE	NONE	GENRE_B
 2078	I'll take my business dinner dollars elsewhere.	NEGATIVE	NONE	GENRE_B

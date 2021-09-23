@@ -1,0 +1,18 @@
+
+report on the number of instances in the training and test sets and their class distribution
+Training set class distribution (ignoring neutral):
+POSITIVE documents:  1076
+NEGATIVE documents:  1282
+
+Test set class distribution:
+POSITIVE documents: 1002
+NEGATIVE documents: 1013
+
+
+
+
+discuss results from b and c (b adds nltk stoplist, removing unneccesary words)
+
+discuss limitations of your implementation and ideas for how to address them
+
+
