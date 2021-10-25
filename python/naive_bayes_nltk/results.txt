@@ -15,4 +15,10 @@ discuss results from b and c (b adds nltk stoplist, removing unneccesary words)
 
 discuss limitations of your implementation and ideas for how to address them
 
+some limitations of the bag of words naive bayes classsifier are: limited number of parameters.
+There is only one parameter for every word in the trained vocabulary, so we have to just discard
+words not in V, since we have no idea what class to associate them with. One way to get around this
+might be to keep track of unknown words in test data, and train new paramaters on them, using the
+predicted class instead of an annotated one. Another improvement is simply to add more parameters, to
+an extent. Longer n-grams would be an obvious first place to start. 
 
